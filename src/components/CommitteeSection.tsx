@@ -11,7 +11,7 @@ import committeeMember9 from "@/assets/icon.png";
 import committeeMember10 from "@/assets/committee member2.png";
 import committeeMember11 from "@/assets/icon.png";
 import committeeMember12 from "@/assets/icon.png";
-import committeeMember13 from "@/assets/icon.png";
+import committeeMember13 from "@/assets/parulekar sir.png";
 
 const CommitteeSection = () => {
   const { t } = useLanguage();
