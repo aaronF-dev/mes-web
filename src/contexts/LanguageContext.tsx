@@ -81,19 +81,19 @@ const translations = {
     'college.explore': 'Explore Topiwala School →' ,
     
     // Topiwala Junior College
-    'tech.founded': 'Founded in 1947',
+    'tech.founded': 'Founded in 1974',
     'tech.title': ' N.A.D. Topiwala Junior College',
     'tech.description': 'Topiwala Junior College is an intimate community of dedicated learners, who are working to address the most pressing issues of our time through education and innovation.',
     'tech.explore': 'Explore Topiwala Junior College →',
     
     // Jai Ganesh School
-    'medical.founded': 'Founded in 2003',
+    'medical.founded': 'Founded in 2004',
     'medical.title': 'Jay Ganesh English Medium School',
     'medical.description': 'Jay Ganesh English Medium School is committed to creating and nurturing a diverse community of the best and brightest students, faculty, and staff, with a shared mission to serve others through quality education.',
     'medical.explore': 'Explore Jay Ganesh English Medium School →',
     
     // Parulekar Primary School
-    'business.founded': 'Founded in 1962',
+    'business.founded': 'Founded in 1952',
     'business.title': 'Mohanrao Parulekar Primary School',
     'business.description': 'Mohanrao Parulekar Primary School prepares young learners who make a difference in the world. We develop innovative educational approaches and cultivate creative thinking for the challenges of tomorrow.',
     'business.explore': 'Explore Mohanrao Parulekar Primary School →',
