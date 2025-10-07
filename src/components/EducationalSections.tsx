@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import CommitteeSection from "./CommitteeSection";
 import topiwalSchoolImg from "@/assets/topiwala-school.png";
-import malvanTechImg from "@/assets/topiwala-college.png";
+import malvanTechImg from "@/assets/topiwala-college.jpeg";
 import jaiGaneshSchoolImg from "@/assets/jai-ganesh-school.png";
-import malvanBusinessImg from "@/assets/paruyekar.png";
+import malvanBusinessImg from "@/assets/paruyekar.jpeg";
 import malvanArtsImg from "@/assets/ghurye.png";
 
 const EducationalSections = () => {

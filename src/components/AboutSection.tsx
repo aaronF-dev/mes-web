@@ -1,4 +1,4 @@
-import heroImage from "@/assets/mes-about.png";
+import heroImage from "@/assets/mes-about.jpeg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const AboutSection = () => {

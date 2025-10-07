@@ -1,7 +1,7 @@
 import HeroHeader from "./HeroHeader";
 import HarvardLogo from "./HarvardLogo";
 
-import heroImage from "@/assets/hero1.png";
+import heroImage from "@/assets/hero1.jpeg";
 
 const HeroSection = () => {
 
