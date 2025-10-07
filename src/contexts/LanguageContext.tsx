@@ -126,7 +126,7 @@ const translations = {
 'committee.member9.name': 'Mr. Shailesh Khandalekar',
 'committee.member9.position': 'Member Of MES',
 'committee.member10.name': 'Mr. Sudesh Mayekar',
-'committee.member10.position': 'Member Of MES',
+'committee.member10.position': 'President Of MES',
 
     // Quote Section
     'quote.text': 'Education is the most powerful weapon which you can use to change the world.',
