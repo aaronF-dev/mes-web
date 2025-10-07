@@ -1,6 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import committeeMember1 from "@/assets/vijay kamat.png";
-import committeeMember2 from "@/assets/committee member2.png";
+import committeeMember1 from "@/assets/icon.png";
+import committeeMember2 from "@/assets/vijay kamat.png";
 import committeeMember3 from "@/assets/rajiv.png";
 import committeeMember4 from "@/assets/valanju.png";
 import committeeMember5 from "@/assets/icon.png";
@@ -8,12 +8,16 @@ import committeeMember6 from "@/assets/VEENA GOSAVI.png";
 import committeeMember7 from "@/assets/TEJAL VENGURLEKAR.png";
 import committeeMember8 from "@/assets/icon.png";
 import committeeMember9 from "@/assets/icon.png";
-import committeeMember10 from "@/assets/icon.png";
+import committeeMember10 from "@/assets/committee member2.png";
+import committeeMember11 from "@/assets/icon.png";
+import committeeMember12 from "@/assets/icon.png";
+import committeeMember13 from "@/assets/icon.png";
 
 const CommitteeSection = () => {
   const { t } = useLanguage();
   
   const committeeMembers = [
+    
     {
       id: 1,
       image: committeeMember1,
@@ -73,6 +77,24 @@ const CommitteeSection = () => {
       image: committeeMember10,
       name: t('committee.member10.name'),
       position: t('committee.member10.position'),
+    },
+    {
+      id: 11,
+      image: committeeMember11,
+      name: t('committee.member11.name'),
+      position: t('committee.member11.position'),
+    },
+    {
+      id: 12,
+      image: committeeMember12,
+      name: t('committee.member12.name'),
+      position: t('committee.member12.position'),
+    },
+    {
+      id: 13,
+      image: committeeMember13,
+      name: t('committee.member13.name'),
+      position: t('committee.member13.position'),
     },
   ];
 
