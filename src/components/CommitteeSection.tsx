@@ -3,9 +3,12 @@ import committeeMember1 from "@/assets/vijay kamat.png";
 import committeeMember2 from "@/assets/committee member2.png";
 import committeeMember3 from "@/assets/rajiv.png";
 import committeeMember4 from "@/assets/valanju.png";
-import committeeMember5 from "@/assets/SHWETA PEDNEKAR.png";
+import committeeMember5 from "@/assets/icon.png";
 import committeeMember6 from "@/assets/VEENA GOSAVI.png";
 import committeeMember7 from "@/assets/TEJAL VENGURLEKAR.png";
+import committeeMember8 from "@/assets/icon.png";
+import committeeMember9 from "@/assets/icon.png";
+import committeeMember10 from "@/assets/icon.png";
 
 const CommitteeSection = () => {
   const { t } = useLanguage();
@@ -52,6 +55,24 @@ const CommitteeSection = () => {
       image: committeeMember7,
       name: t('committee.member7.name'),
       position: t('committee.member7.position'),
+    },
+    {
+      id: 8,
+      image: committeeMember8,
+      name: t('committee.member8.name'),
+      position: t('committee.member8.position'),
+    },
+    {
+      id: 9,
+      image: committeeMember9,
+      name: t('committee.member9.name'),
+      position: t('committee.member9.position'),
+    },
+    {
+      id: 10,
+      image: committeeMember10,
+      name: t('committee.member10.name'),
+      position: t('committee.member10.position'),
     },
   ];
 
