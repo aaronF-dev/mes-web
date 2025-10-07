@@ -99,7 +99,7 @@ const translations = {
     'business.explore': 'Explore Mohanrao Parulekar Primary School →',
     
     // Ghuruye School
-    'arts.founded': 'Founded in 1948',
+    'arts.founded': 'Founded in 2004',
     'arts.title': 'SMT. Sitabai Shripad Ghurye Pre-Primary School',
     'arts.description': 'Ghuruye School is a comprehensive educational institution offering programs in humanities, sciences, and arts that foster critical thinking and creative expression in students.',
     'arts.explore': 'Explore Ghuruye School →',
