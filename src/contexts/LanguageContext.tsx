@@ -140,7 +140,7 @@ const translations = {
     
     // About Section
     'about.title': '',
-    'about.description': 'Those who join our community to learn, research, teach, work, and grow join nearly four centuries of students and scholars in the pursuit of truth, knowledge, and a better world.',
+    'about.description': ' The Malvan Education Society provides strategic management for its schools. A diverse Governing Body includes elected members founders representatives headmasters and advisors. This structure ensures decisions are based on consensus and mission. Its work focuses on expanding access improving standards and investing in facilities. ',
     
     // Footer
     'footer.title': 'Malvan Education Society',
