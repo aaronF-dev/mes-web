@@ -18,34 +18,43 @@ const Footer = () => {
             </p>
           </div>
           
+          
           {/* Quick Links */}
           <div className="text-center md:text-left">
             <h4 className="text-sm sm:text-base font-semibold text-white mb-2 sm:mb-3 md:mb-4">{t('footer.quick_links')}</h4>
             <nav className="space-y-1 sm:space-y-2">
-              <Link 
-                to="/" 
+              <a
+                href="https://ths.topiwala-mes.org//"                    // <- replace with real URL
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-xs sm:text-sm md:text-base text-white/70 hover:text-white transition-colors"
               >
                 {t('footer.home')}
-              </Link>
-              <Link 
-                to="/about" 
+              </a>
+              <a
+                href="https://jayganesh.topiwala-mes.org/"               // <- replace with real URL
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-xs sm:text-sm md:text-base text-white/70 hover:text-white transition-colors"
               >
                 {t('footer.about_us')}
-              </Link>
-              <Link 
-                to="#" 
+              </a>
+              <a
+                href="https://mohanraoparulekar.topiwala-mes.org/"            // <- replace with real URL
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-xs sm:text-sm md:text-base text-white/70 hover:text-white transition-colors"
               >
                 {t('footer.programs')}
-              </Link>
-              <Link 
-                to="#" 
+              </a>
+              <a
+                href="https://smtghurye.topiwala-mes.org/"          // <- replace with real URL
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block text-xs sm:text-sm md:text-base text-white/70 hover:text-white transition-colors"
               >
                 {t('footer.admissions')}
-              </Link>
+              </a>
             </nav>
           </div>
           
