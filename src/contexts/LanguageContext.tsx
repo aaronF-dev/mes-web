@@ -75,31 +75,31 @@ const translations = {
     'schools.subtitle': 'Discover our prestigious institutions, each dedicated to excellence in education and fostering the next generation of leaders.',
     
     // Topiwala School
-    'college.founded': 'Founded in 1911',
+    'college.founded': 'Established in 1911',
     'college.title': 'A.S.D. Topiwala High School',
     'college.description': 'Topiwala School is a dynamic, close-knit community of dedicated students and faculty who come together as a means to learn from the past and navigate the future.',
     'college.explore': 'Explore Topiwala School →' ,
     
     // Topiwala Junior College
-    'tech.founded': 'Founded in 1974',
+    'tech.founded': 'Established in 1974',
     'tech.title': ' N.A.D. Topiwala Junior College',
     'tech.description': 'Topiwala Junior College is an intimate community of dedicated learners, who are working to address the most pressing issues of our time through education and innovation.',
     'tech.explore': 'Explore Topiwala Junior College →',
     
     // Jai Ganesh School
-    'medical.founded': 'Founded in 2004',
+    'medical.founded': 'Established in 2004',
     'medical.title': 'Jay Ganesh English Medium School',
     'medical.description': 'Jay Ganesh English Medium School is committed to creating and nurturing a diverse community of the best and brightest students, faculty, and staff, with a shared mission to serve others through quality education.',
     'medical.explore': 'Explore Jay Ganesh English Medium School →',
     
     // Parulekar Primary School
-    'business.founded': 'Founded in 1952',
+    'business.founded': 'Established in 1952',
     'business.title': 'Mohanrao Parulekar Primary School',
     'business.description': 'Mohanrao Parulekar Primary School prepares young learners who make a difference in the world. We develop innovative educational approaches and cultivate creative thinking for the challenges of tomorrow.',
     'business.explore': 'Explore Mohanrao Parulekar Primary School →',
     
     // Ghuruye School
-    'arts.founded': 'Founded in 2004',
+    'arts.founded': 'Established in 2004',
     'arts.title': 'SMT. Sitabai Shripad Ghurye Pre-Primary School',
     'arts.description': 'Ghuruye School is a comprehensive educational institution offering programs in humanities, sciences, and arts that foster critical thinking and creative expression in students.',
     'arts.explore': 'Explore Ghuruye School →',
