@@ -105,7 +105,7 @@ const translations = {
     'arts.explore': 'Explore Ghuruye School →',
     
     // Committee Section
-    'committee.title': 'Committee Members',
+    'committee.title': 'Present Managing Committee 2025-2029',
     'committee.subtitle': 'Meet our dedicated committee members who guide our educational mission.',
     'committee.member1.name': 'Mr.Sudesh Mayekar',
     'committee.member1.position': 'President Of MES',
