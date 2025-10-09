@@ -8,7 +8,7 @@ import committeeMember6 from "@/assets/VEENA GOSAVI.png";
 import committeeMember7 from "@/assets/TEJAL VENGURLEKAR.png";
 import committeeMember8 from "@/assets/icon.png";
 import committeeMember9 from "@/assets/icon.png";
-import committeeMember10 from "@/assets/icon.png";
+import committeeMember10 from "@/assets/sir avinash.png";
 import committeeMember11 from "@/assets/parulekar sir.png";
 import committeeMember12 from "@/assets/icon.png";
 import committeeMember13 from "@/assets/committee member2.png";
