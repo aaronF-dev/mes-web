@@ -111,7 +111,7 @@ const translations = {
     'committee.member1.position': 'President Of MES',
     'committee.member2.name': 'Mr. Vijay Kamat',
     'committee.member2.position': 'Secretary Of MES',
-    'committee.member3.name': 'Mr. Rajiv Kubal',
+    'committee.member3.name': 'Commander Rajiv Kubal',
     'committee.member3.position': 'Member Of MES',
     'committee.member4.name': 'Mr. Laxman Valanju',
     'committee.member4.position': 'Member Of MES',
