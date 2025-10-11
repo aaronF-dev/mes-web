@@ -1,17 +1,20 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import committeeMember1 from "@/assets/icon.png";
 import committeeMember2 from "@/assets/vijay kamat.png";
-import committeeMember3 from "@/assets/rajiv.png";
-import committeeMember4 from "@/assets/valanju.png";
-import committeeMember5 from "@/assets/icon.png";
-import committeeMember6 from "@/assets/VEENA GOSAVI.png";
-import committeeMember7 from "@/assets/TEJAL VENGURLEKAR.png";
+import committeeMember3 from "@/assets/icon.png";
+import committeeMember4 from "@/assets/icon.png";
+import committeeMember5 from "@/assets/rajiv.png";
+import committeeMember6 from "@/assets/icon.png";
+import committeeMember7 from "@/assets/icon.png";
 import committeeMember8 from "@/assets/icon.png";
-import committeeMember9 from "@/assets/icon.png";
-import committeeMember10 from "@/assets/sir avinash.png";
-import committeeMember11 from "@/assets/parulekar sir.png";
-import committeeMember12 from "@/assets/icon.png";
-import committeeMember13 from "@/assets/committee member2.png";
+import committeeMember9 from "@/assets/committee member2.png";
+import committeeMember10 from "@/assets/valanju.png";
+import committeeMember11 from "@/assets/VEENA GOSAVI.png";
+import committeeMember12 from "@/assets/TEJAL VENGURLEKAR.png";
+import committeeMember13 from "@/assets/icon.png";
+import committeeMember14 from "@/assets/parulekar sir.png";
+import committeeMember15 from "@/assets/sir avinash.png";
+
 
 const CommitteeSection = () => {
   const { t } = useLanguage();
@@ -92,6 +95,18 @@ const CommitteeSection = () => {
     },
     {
       id: 13,
+      image: committeeMember13,
+      name: t('committee.member13.name'),
+      position: t('committee.member13.position'),
+    },
+    {
+      id: 14,
+      image: committeeMember13,
+      name: t('committee.member13.name'),
+      position: t('committee.member13.position'),
+    },
+    {
+      id: 15,
       image: committeeMember13,
       name: t('committee.member13.name'),
       position: t('committee.member13.position'),
