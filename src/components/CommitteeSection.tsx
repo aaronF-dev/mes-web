@@ -16,6 +16,7 @@ import committeeMember14 from "@/assets/parulekar sir.png";
 import committeeMember15 from "@/assets/sir avinash.png";
 
 
+
 const CommitteeSection = () => {
   const { t } = useLanguage();
   
@@ -101,15 +102,15 @@ const CommitteeSection = () => {
     },
     {
       id: 14,
-      image: committeeMember13,
-      name: t('committee.member13.name'),
-      position: t('committee.member13.position'),
+      image: committeeMember14,
+      name: t('committee.member14.name'),
+      position: t('committee.member14.position'),
     },
     {
       id: 15,
-      image: committeeMember13,
-      name: t('committee.member13.name'),
-      position: t('committee.member13.position'),
+      image: committeeMember15,
+      name: t('committee.member15.name'),
+      position: t('committee.member15.position'),
     },
   ];
 
