@@ -105,7 +105,7 @@ const translations = {
     'arts.explore': 'Explore Ghuruye School →',
 
     // Smruthi Gandha
-    'smruthi.founded': 'Established in 2004',
+    'smruthi.founded': 'Launched in 2004',
     'smruthi.title': 'Smruthi Gandha',
     'smruthi.description': 'It is a comprehensive handcraft magazine that showcases the rich history of Topiwala.',
     'smruthi.explore': 'Explore Smruthi Gandha →',
