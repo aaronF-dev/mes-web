@@ -14,8 +14,8 @@ const HeroSection = () => {
           alt="Malvan Education Society classical architecture"
           className="w-full h-full object-cover"
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-hero-overlay" />
+        {/* reduced overlay darkness */}
+        <div className="absolute inset-0 bg-black/20" />
       </div>
 
       {/* Header */}
