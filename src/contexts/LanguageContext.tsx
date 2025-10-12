@@ -216,7 +216,7 @@ const translations = {
     'arts.explore': 'घुरये शाळा एक्सप्लोर करा →',
 
     // Smrithi Gandha
-    'smruthi.founded': '२००४ मध्ये स्थापना',
+    'smruthi.founded': '२०११ मध्ये स्थापना',
     'smruthi.title': 'स्मृती गंधा',
     'smruthi.description': 'टोपीवालाचा सखोल इतिहास दाखवणारी ही एक विस्तृत/अंगभूत हस्तकला पत्रिका आहे.',
     'smruthi.explore': 'स्मृती गंधा एक्सप्लोर करा →',
