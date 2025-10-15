@@ -12,7 +12,7 @@ import committeeMember10 from "@/assets/committee member2.png"; // Was committee
 import committeeMember11 from "@/assets/valanju.png"; // Was committeeMember10 (Mr. Laxman Valanju - Head Master)
 import committeeMember12 from "@/assets/VEENA GOSAVI.png"; // Was committeeMember11 (Mrs. Veena Gosawi - Head Master)
 import committeeMember13 from "@/assets/TEJAL VENGURLEKAR.png"; // Was committeeMember12 (Mrs. Tejal Vengurlekar - Head Master)
-import committeeMember14 from "@/assets/icon.png"; // Was committeeMember13 (Mr. Anand Chavan - Advisor)
+import committeeMember14 from "@/assets/anand.jpeg"; // Was committeeMember13 (Mr. Anand Chavan - Advisor)
 import committeeMember15 from "@/assets/parulekar sir.png"; // Was committeeMember14 (Mr. Sharad Parulekar - Advisor)
 import committeeMember16 from "@/assets/sir avinash.png"; // Was committeeMember15 (Mr. Avinash Ajgaonkar - Advisor)
 
