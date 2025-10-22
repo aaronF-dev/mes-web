@@ -6,7 +6,7 @@ import malvanTechImg from "@/assets/topiwala-college.jpeg";
 import jaiGaneshSchoolImg from "@/assets/jai-ganesh-school.png";
 import malvanBusinessImg from "@/assets/paruyekar.jpeg";
 import malvanArtsImg from "@/assets/ghurye.png";
-import malvansmruthiImg from "@/assets/smruthi.jpeg";
+import malvansmruthiImg from "@/assets/smruthi gandha.jpeg";
 
 const EducationalSections = () => {
   const { t } = useLanguage();

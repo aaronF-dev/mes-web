@@ -1,11 +1,11 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import committeeMember1 from "@/assets/icon.png";
+import committeeMember1 from "@/assets/president.jpeg";
 import committeeMember2 from "@/assets/vijay kamat.png";
 import committeeMember3 from "@/assets/icon.png";
 import committeeMember4 from "@/assets/icon.png";
 import committeeMember5 from "@/assets/rajiv.png";
 import committeeMember6 from "@/assets/icon.png"; // Mr. GV Samant
-import committeeMember7 from "@/assets/icon.png"; // **NEW: Mr. Chandrakant Samant**
+import committeeMember7 from "@/assets/chandrakant.jpeg"; // **NEW: Mr. Chandrakant Samant**
 import committeeMember8 from "@/assets/icon.png"; // Was committeeMember7 (Mr. Akshay Samant)
 import committeeMember9 from "@/assets/icon.png"; // Was committeeMember8 (Mr. Shailesh Khandalekar)
 import committeeMember10 from "@/assets/committee member2.png"; // Was committeeMember9 (Mr. Digambar Samant - Presidents Nominee)
@@ -13,7 +13,7 @@ import committeeMember11 from "@/assets/valanju.png"; // Was committeeMember10 (
 import committeeMember12 from "@/assets/VEENA GOSAVI.png"; // Was committeeMember11 (Mrs. Veena Gosawi - Head Master)
 import committeeMember13 from "@/assets/TEJAL VENGURLEKAR.png"; // Was committeeMember12 (Mrs. Tejal Vengurlekar - Head Master)
 import committeeMember14 from "@/assets/anand.jpeg"; // Was committeeMember13 (Mr. Anand Chavan - Advisor)
-import committeeMember15 from "@/assets/parulekar sir.png"; // Was committeeMember14 (Mr. Sharad Parulekar - Advisor)
+import committeeMember15 from "@/assets/sharad.jpeg"; // Was committeeMember14 (Mr. Sharad Parulekar - Advisor)
 import committeeMember16 from "@/assets/sir avinash.png"; // Was committeeMember15 (Mr. Avinash Ajgaonkar - Advisor)
 
 
