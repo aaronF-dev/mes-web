@@ -7,6 +7,7 @@ import jaiGaneshSchoolImg from "@/assets/jai-ganesh-school.png";
 import malvanBusinessImg from "@/assets/paruyekar.jpeg";
 import malvanArtsImg from "@/assets/ghurye.png";
 import malvansmruthiImg from "@/assets/smruthi gandha.jpeg";
+import gyanImg from "@/assets/gyanjyoti.jpeg";
 
 const EducationalSections = () => {
   const { t } = useLanguage();
@@ -214,6 +215,38 @@ const EducationalSections = () => {
   onClick={() => window.open('https://ths.topiwala-mes.org/coming-soon', '_blank')}
 >
   {t('smruthi.explore')}
+</Button>
+            </div>
+          </div>
+
+          {/* Gyan Jyoti*/}
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center bg-card rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300 mb-12 sm:mb-24">
+            <div className="lg:w-1/2">
+              <img
+                src={gyanImg}
+                alt="Arts and Sciences students at Malvan"
+                className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+              />
+            </div>
+            <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">
+              <div className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-4">
+                <p className="text-sm text-primary font-semibold uppercase tracking-wide">
+                  {t('gyan.founded')}
+                </p>
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6 text-foreground">
+                {t('gyan.title')}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-base sm:text-lg">
+                {t('gyan.description')}
+              </p>
+              <Button
+  variant="outline"
+  size="lg"
+  className="hover:bg-primary hover:text-primary-foreground transition-colors"
+  onClick={() => window.open('https://ths.topiwala-mes.org/coming-soon', '_blank')}
+>
+  {t('gyan.explore')}
 </Button>
             </div>
           </div>
