@@ -212,7 +212,7 @@ const EducationalSections = () => {
   variant="outline"
   size="lg"
   className="hover:bg-primary hover:text-primary-foreground transition-colors"
-  onClick={() => window.open('https://ths.topiwala-mes.org/coming-soon', '_blank')}
+  onClick={() => window.open('https://ths.topiwala-mes.org/smrutigandh', '_blank')}
 >
   {t('smruthi.explore')}
 </Button>
@@ -244,7 +244,7 @@ const EducationalSections = () => {
   variant="outline"
   size="lg"
   className="hover:bg-primary hover:text-primary-foreground transition-colors"
-  onClick={() => window.open('https://ths.topiwala-mes.org/coming-soon', '_blank')}
+  onClick={() => window.open('https://ths.topiwala-mes.org/gyan-jyoti', '_blank')}
 >
   {t('gyan.explore')}
 </Button>

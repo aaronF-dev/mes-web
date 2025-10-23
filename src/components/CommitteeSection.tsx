@@ -1,20 +1,54 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+// 1. Sudesh Mayekar (President)
 import committeeMember1 from "@/assets/president.jpeg";
+
+// 2. Vijay Kamat (Secretary)
 import committeeMember2 from "@/assets/vijay kamat.png";
+
+// 3. Vikas Desai (Trustee) - Used icon as no specific image was provided for Vikas Desai in the original import comments.
 import committeeMember3 from "@/assets/icon.png";
+
+// 4. Janhavi Desai (Trustee) - Used icon as no specific image was provided for Janhavi Desai in the original import comments.
 import committeeMember4 from "@/assets/icon.png";
-import committeeMember5 from "@/assets/rajiv.png";
-import committeeMember6 from "@/assets/icon.png"; // Mr. GV Samant
-import committeeMember7 from "@/assets/chandrakant.jpeg"; // **NEW: Mr. Chandrakant Samant**
-import committeeMember8 from "@/assets/icon.png"; // Was committeeMember7 (Mr. Akshay Samant)
-import committeeMember9 from "@/assets/icon.png"; // Was committeeMember8 (Mr. Shailesh Khandalekar)
-import committeeMember10 from "@/assets/committee member2.png"; // Was committeeMember9 (Mr. Digambar Samant - Presidents Nominee)
-import committeeMember11 from "@/assets/valanju.png"; // Was committeeMember10 (Mr. Laxman Valanju - Head Master)
-import committeeMember12 from "@/assets/VEENA GOSAVI.png"; // Was committeeMember11 (Mrs. Veena Gosawi - Head Master)
-import committeeMember13 from "@/assets/TEJAL VENGURLEKAR.png"; // Was committeeMember12 (Mrs. Tejal Vengurlekar - Head Master)
-import committeeMember14 from "@/assets/anand.jpeg"; // Was committeeMember13 (Mr. Anand Chavan - Advisor)
-import committeeMember15 from "@/assets/sharad.jpeg"; // Was committeeMember14 (Mr. Sharad Parulekar - Advisor)
-import committeeMember16 from "@/assets/sir avinash.png"; // Was committeeMember15 (Mr. Avinash Ajgaonkar - Advisor)
+
+// 5. Akshay Samant (Member) - Used icon (original list's committeeMember8 was the icon).
+import committeeMember5 from "@/assets/akshay.jpeg";
+
+// 6. Shailesh Khandalekar (Member) - Used icon (original list's committeeMember9 was the icon).
+import committeeMember6 from "@/assets/shailesh.jpeg";
+
+// 7. G.V. Samant (Member) - Used icon (original list's committeeMember6 was the icon).
+import committeeMember7 from "@/assets/icon.png";
+
+// 8. Chandrakant Samant (Member)
+import committeeMember8 from "@/assets/chandrakant.jpeg";
+
+// 9. Rajiv Kubal (Member)
+import committeeMember9 from "@/assets/rajiv.png";
+
+// 10. Digambar Samant (Presidents Nominee)
+import committeeMember10 from "@/assets/committee member2.png";
+
+// 11. Laxman Valanju (Head Master)
+import committeeMember11 from "@/assets/valanju.png";
+
+// 12. Veena Gosawi (Head Master)
+import committeeMember12 from "@/assets/VEENA GOSAVI.png";
+
+// 13. Tejal Vengurlekar (Head Master)
+import committeeMember13 from "@/assets/TEJAL VENGURLEKAR.png";
+
+// 14. Anand Chavan (Advisor)
+import committeeMember14 from "@/assets/anand.jpeg";
+
+// 15. Sharad Parulekar (Advisor)
+import committeeMember15 from "@/assets/sharad.jpeg";
+
+// 16. Avinash Ajgaonkar (Advisor)
+import committeeMember16 from "@/assets/sir avinash.png";
+
+// 17. L.R. Khobarekar (Advisor) - Added new placeholder to match the 17th member.
+import committeeMember17 from "@/assets/icon.png";
 
 
 
@@ -118,6 +152,12 @@ const CommitteeSection = () => {
       image: committeeMember16,
       name: t('committee.member16.name'),
       position: t('committee.member16.position'),
+    },
+    {
+      id: 17,
+      image: committeeMember17,
+      name: t('committee.member17.name'),
+      position: t('committee.member17.position'),
     },
   ];
 
