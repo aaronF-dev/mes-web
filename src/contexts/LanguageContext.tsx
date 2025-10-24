@@ -111,7 +111,7 @@ const translations = {
     'smruthi.explore': 'Explore Smruthi Gandha →',
 
      // Gyan Jyoti
-    'gyan.founded': 'Launched in 2011',
+   // 'gyan.founded': 'Launched in 2011',
     'gyan.title': 'Dnyan Jyoti',
     'gyan.description': 'It is a comprehensive handcraft articles/stories or literature by our students..',
     'gyan.explore': 'Explore Dnyan Jyoti →',

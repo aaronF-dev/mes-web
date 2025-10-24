@@ -9,7 +9,7 @@ import committeeMember2 from "@/assets/vijay kamat.png";
 import committeeMember3 from "@/assets/icon.png";
 
 // 4. Janhavi Desai (Trustee) - Used icon as no specific image was provided for Janhavi Desai in the original import comments.
-import committeeMember4 from "@/assets/icon.png";
+import committeeMember4 from "@/assets/janhvi.jpeg";
 
 // 5. Akshay Samant (Member) - Used icon (original list's committeeMember8 was the icon).
 import committeeMember5 from "@/assets/akshay.jpeg";
@@ -18,7 +18,7 @@ import committeeMember5 from "@/assets/akshay.jpeg";
 import committeeMember6 from "@/assets/shailesh.jpeg";
 
 // 7. G.V. Samant (Member) - Used icon (original list's committeeMember6 was the icon).
-import committeeMember7 from "@/assets/icon.png";
+import committeeMember7 from "@/assets/gv.jpeg";
 
 // 8. Chandrakant Samant (Member)
 import committeeMember8 from "@/assets/chandrakant.jpeg";

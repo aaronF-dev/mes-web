@@ -6,7 +6,7 @@ import malvanTechImg from "@/assets/topiwala-college.jpeg";
 import jaiGaneshSchoolImg from "@/assets/jai-ganesh-school.png";
 import malvanBusinessImg from "@/assets/paruyekar.jpeg";
 import malvanArtsImg from "@/assets/ghurye.png";
-import malvansmruthiImg from "@/assets/smruthi gandha.jpeg";
+import malvansmruthiImg from "@/assets/smruthinew.jpeg";
 import gyanImg from "@/assets/gyanjyoti.jpeg";
 
 const EducationalSections = () => {
@@ -229,11 +229,6 @@ const EducationalSections = () => {
               />
             </div>
             <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">
-              <div className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-4">
-                <p className="text-sm text-primary font-semibold uppercase tracking-wide">
-                  {t('gyan.founded')}
-                </p>
-              </div>
               <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6 text-foreground">
                 {t('gyan.title')}
               </h3>
