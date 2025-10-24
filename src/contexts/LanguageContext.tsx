@@ -110,11 +110,11 @@ const translations = {
     'smruthi.description': 'It is a comprehensive handcraft magazine that showcases the rich history of Topiwala.',
     'smruthi.explore': 'Explore Smruthi Gandha →',
 
-     // Gyan Hyoti
+     // Gyan Jyoti
     'gyan.founded': 'Launched in 2011',
-    'gyan.title': 'Gyan Jyoti',
+    'gyan.title': 'Dnyan Jyoti',
     'gyan.description': 'It is a comprehensive handcraft articles/stories or literature by our students..',
-    'gyan.explore': 'Explore Gyan Jyoti →',
+    'gyan.explore': 'Explore Dnyan Jyoti →',
 
     // Committee Section
     'committee.title': 'Present Managing Committee 2025-2029',
