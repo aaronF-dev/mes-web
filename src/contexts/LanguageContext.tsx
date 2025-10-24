@@ -106,9 +106,9 @@ const translations = {
 
     // Smruthi Gandha
     'smruthi.founded': 'Launched in 2011',
-    'smruthi.title': 'Smruthi Gandha',
+    'smruthi.title': 'Smruti Gandha',
     'smruthi.description': 'It is a comprehensive handcraft magazine that showcases the rich history of Topiwala.',
-    'smruthi.explore': 'Explore Smruthi Gandha →',
+    'smruthi.explore': 'Explore Smruti Gandha →',
 
      // Gyan Jyoti
    // 'gyan.founded': 'Launched in 2011',
