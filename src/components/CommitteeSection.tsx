@@ -48,7 +48,7 @@ import committeeMember15 from "@/assets/sharad.jpeg";
 import committeeMember16 from "@/assets/sir avinash.png";
 
 // 17. L.R. Khobarekar (Advisor) - Added new placeholder to match the 17th member.
-import committeeMember17 from "@/assets/icon.png";
+import committeeMember17 from "@/assets/khobarekar.jpeg";
 
 
 
