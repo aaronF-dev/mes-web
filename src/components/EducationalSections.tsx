@@ -86,7 +86,7 @@ const EducationalSections = () => {
   className="hover:bg-primary hover:text-primary-foreground transition-colors"
   onClick={() => window.open('https://ths.topiwala-mes.org', '_blank')}
 >
-  {t('college.explore')}
+  {t('tech.explore')}
 </Button>
             </div>
           </div>
