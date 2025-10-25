@@ -14,8 +14,8 @@ const Index = () => {
     <div className="min-h-screen">
       <SEOHead 
         title="Malvan Education Society | A.S.D. Topiwala High School | N.A.D. Junior College | Best Schools in Malvan, Sindhudurg"
-        description="Malvan Education Society (MES) - Premier educational institution in Malvan, Sindhudurg since 1912. Home to A.S.D. Topiwala High School, N.A.D. Junior College, Jay Ganesh School, Mohanrao Parulekar Primary School. Quality CBSE, SSC, HSC education in Malvan, Maharashtra."
-        keywords="Malvan Education Society, Topiwala School Malvan, Junior College Sindhudurg, best schools Malvan, CBSE school Maharashtra, SSC school Malvan, HSC college Malvan, Jay Ganesh School, Parulekar Primary School, Ghurye School, education Malvan, schools near me Malvan"
+        description="Malvan Education Society (MES) - Premier educational institution in Malvan, Sindhudurg since 1912. Home to A.S.D. Topiwala High School, N.A.D. Junior College, Jay Ganesh School, Mohanrao Parulekar Primary School. Quality SSC, HSC education in Malvan, Maharashtra."
+        keywords="Malvan Education Society, Topiwala School Malvan, Junior College Sindhudurg, best schools Malvan, SSC, HSC school Maharashtra, SSC school Malvan, HSC college Malvan, Jay Ganesh School, Parulekar Primary School, Ghurye School, education Malvan, schools near me Malvan"
         canonical="https://topiwala-mes.org/"
       />
       <HeroSection />
