@@ -34,6 +34,8 @@ const EducationalSections = () => {
                 src={topiwalSchoolImg}
                 alt="Students in classroom at Topiwala School"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">
@@ -66,6 +68,8 @@ const EducationalSections = () => {
                 src={malvanTechImg}
                 alt="Engineering and Applied Sciences at Malvan"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pr-8 text-center lg:text-left">
@@ -98,6 +102,8 @@ const EducationalSections = () => {
                 src={jaiGaneshSchoolImg}
                 alt="Students at Jai Ganesh School"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">
@@ -130,6 +136,8 @@ const EducationalSections = () => {
                 src={malvanBusinessImg}
                 alt="Business students at Malvan Business School"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pr-8 text-center lg:text-left">
@@ -162,6 +170,8 @@ const EducationalSections = () => {
                 src={malvanArtsImg}
                 alt="Arts and Sciences students at Malvan"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">
@@ -194,6 +204,8 @@ const EducationalSections = () => {
                 src={malvansmruthiImg}
                 alt="Smruthi Gandha at Malvan"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pr-8 text-center lg:text-left">
@@ -226,6 +238,8 @@ const EducationalSections = () => {
                 src={gyanImg}
                 alt="Arts and Sciences students at Malvan"
                 className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">

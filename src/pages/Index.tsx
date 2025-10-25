@@ -1,23 +1,42 @@
+import { lazy, Suspense } from "react";
 import HeroSection from "../components/HeroSection";
-import EducationalSections from "../components/EducationalSections";
-import AboutSection from "../components/AboutSection";
-import Footer from "../components/Footer";
-import { Chatbot } from "../components/Chatbot";
+import { ComponentLoadingFallback } from "../components/LoadingFallback";
+import { SEOHead } from "../components/SEOHead";
+
+// Lazy load heavy components
+const EducationalSections = lazy(() => import("../components/EducationalSections"));
+const AboutSection = lazy(() => import("../components/AboutSection"));
+const Footer = lazy(() => import("../components/Footer"));
+const Chatbot = lazy(() => import("../components/Chatbot").then(module => ({ default: module.Chatbot })));
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <SEOHead 
+        title="Malvan Education Society | A.S.D. Topiwala High School | N.A.D. Junior College | Best Schools in Malvan, Sindhudurg"
+        description="Malvan Education Society (MES) - Premier educational institution in Malvan, Sindhudurg since 1912. Home to A.S.D. Topiwala High School, N.A.D. Junior College, Jay Ganesh School, Mohanrao Parulekar Primary School. Quality CBSE, SSC, HSC education in Malvan, Maharashtra."
+        keywords="Malvan Education Society, Topiwala School Malvan, Junior College Sindhudurg, best schools Malvan, CBSE school Maharashtra, SSC school Malvan, HSC college Malvan, Jay Ganesh School, Parulekar Primary School, Ghurye School, education Malvan, schools near me Malvan"
+        canonical="https://topiwala-mes.org/"
+      />
       <HeroSection />
-      <div id="educational-sections">
-        <EducationalSections />
-      </div>
-      <div id="about">
-        <AboutSection />
-      </div>
-      <div id="contact">
-        <Footer />
-      </div>
-      <Chatbot />
+      <Suspense fallback={<ComponentLoadingFallback />}>
+        <div id="educational-sections">
+          <EducationalSections />
+        </div>
+      </Suspense>
+      <Suspense fallback={<ComponentLoadingFallback />}>
+        <div id="about">
+          <AboutSection />
+        </div>
+      </Suspense>
+      <Suspense fallback={<ComponentLoadingFallback />}>
+        <div id="contact">
+          <Footer />
+        </div>
+      </Suspense>
+      <Suspense fallback={<div />}>
+        <Chatbot />
+      </Suspense>
     </div>
   );
 };

@@ -187,6 +187,10 @@ const CommitteeSection = () => {
                   src={member.image}
                   alt={member.name}
                   className="w-full h-full object-cover rounded-full shadow-lg group-hover:shadow-xl transition-shadow duration-300"
+                  loading="lazy"
+                  decoding="async"
+                  width="192"
+                  height="192"
                 />
                 <div className="absolute inset-0 rounded-full bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>

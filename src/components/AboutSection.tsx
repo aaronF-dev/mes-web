@@ -5,13 +5,15 @@ const AboutSection = () => {
   const { t } = useLanguage();
   
   return (
-    <section id="about" className="relative h-[60vh] sm:h-[80vh] overflow-hidden -mt-20">
+    <section id="about" className="relative h-[60vh] sm:h-[80vh] overflow-hidden -mt-20" itemScope itemType="https://schema.org/AboutPage">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Malvan Education Society campus"
+          alt="Malvan Education Society Campus - Modern Educational Facilities in Malvan, Sindhudurg"
           className="w-full h-full object-cover"
+          loading="lazy"
+          decoding="async"
         />
         {/* Dark overlay */}
         <div className="absolute inset-0 bg-black/50" />
@@ -23,14 +25,14 @@ const AboutSection = () => {
           <div className="grid lg:grid-cols-2 gap-6 lg:gap-12 items-center">
             {/* Left side - Main heading */}
             <div className="text-center lg:text-left">
-              <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-6 sm:mb-8 leading-tight">
+              <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-serif text-white mb-6 sm:mb-8 leading-tight" itemProp="headline">
                 {t('About MES')}
-              </h1>
+              </h2>
             </div>
 
             {/* Right side - Description */}
             <div className="text-center lg:text-left">
-              <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed font-light">
+              <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed font-light" itemProp="description">
                 {t('about.description')}
               </p>
               <div className="mt-6 sm:mt-8 flex justify-center lg:justify-start">
