@@ -261,7 +261,7 @@ const DevelopmentTeam = () => {
             </div>
             <div className="mt-8 pt-6 border-t border-white/20 text-right">
               <p className="text-white font-semibold text-lg">
-                — Rahul Prabhudesai & Aaron Fernandes
+                — Rahul & Aaron 
               </p>
             </div>
           </div>
