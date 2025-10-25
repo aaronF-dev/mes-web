@@ -11,7 +11,7 @@ interface SEOHeadProps {
 
 export const SEOHead = ({
   title = "Malvan Education Society | Best Schools & Colleges in Malvan, Sindhudurg",
-  description = "Premier educational institution since 1912. A.S.D. Topiwala High School, N.A.D. Junior College, Jay Ganesh School, Parulekar School in Malvan, Maharashtra. Quality CBSE, SSC, HSC education.",
+  description = "Premier educational institution since 1912. A.S.D. Topiwala High School, N.A.D. Junior College, Jay Ganesh School, Parulekar School in Malvan, Maharashtra. Quality SSC, HSC education.",
   keywords = "Malvan Education Society, Topiwala School, Junior College Malvan, schools in Sindhudurg",
   canonical,
   ogImage = "https://ik.imagekit.io/73ht4flyu/logo.png?updatedAt=1759781037810"
