@@ -6,7 +6,7 @@ import committeeMember1 from "@/assets/president.jpeg";
 import committeeMember2 from "@/assets/vijay kamat.png";
 
 // 3. Vikas Desai (Trustee) - Used icon as no specific image was provided for Vikas Desai in the original import comments.
-import committeeMember3 from "@/assets/icon.png";
+import committeeMember3 from "@/assets/vikas.jpeg";
 
 // 4. Janhavi Desai (Trustee) - Used icon as no specific image was provided for Janhavi Desai in the original import comments.
 import committeeMember4 from "@/assets/janhvi.jpeg";
