@@ -6,6 +6,7 @@ import { SEOHead } from "../components/SEOHead";
 // Lazy load heavy components
 const EducationalSections = lazy(() => import("../components/EducationalSections"));
 const AboutSection = lazy(() => import("../components/AboutSection"));
+const VideoSection = lazy(() => import("../components/VideoSection"));
 const Footer = lazy(() => import("../components/Footer"));
 const Chatbot = lazy(() => import("../components/Chatbot").then(module => ({ default: module.Chatbot })));
 
@@ -28,6 +29,9 @@ const Index = () => {
         <div id="about">
           <AboutSection />
         </div>
+      </Suspense>
+      <Suspense fallback={<ComponentLoadingFallback />}>
+        <VideoSection />
       </Suspense>
       <Suspense fallback={<ComponentLoadingFallback />}>
         <div id="contact">

@@ -179,6 +179,24 @@ const translations = {
     
     // Search
     'search.placeholder': 'Search...',
+    // Video Section
+    'video.badge': 'Our Achievements',
+    'video.title': 'A Century of Educational Excellence',
+    'video.subtitle': 'Witness the transformation and achievements of Malvan Education Society - shaping futures since 1911',
+    'video.watch': 'Watch Our Story',
+    'video.caption': 'From pioneering institutions to modern educational excellence - experience the remarkable journey of Malvan Education Society',
+    'video.achievement1.title': '114 Years',
+    'video.achievement1.subtitle': 'Legacy of Excellence',
+    'video.achievement1.description': 'Since 1911',
+    'video.achievement2.title': '1500+',
+    'video.achievement2.subtitle': 'Students Empowered',
+    'video.achievement2.description': 'Annually',
+    'video.achievement3.title': '5 Institutions',
+    'video.achievement3.subtitle': 'Educational Wings',
+    'video.achievement3.description': 'SSC & HSC',
+    'video.achievement4.title': 'Award Winning',
+    'video.achievement4.subtitle': 'Academic Excellence',
+    'video.achievement4.description': 'Recognized Nationally',
   },
   mr: {
     // Header
@@ -297,6 +315,25 @@ const translations = {
     
     // Search
     'search.placeholder': 'शोधा...',
+    
+    // Video Section
+    'video.badge': 'आमची उपलब्धी',
+    'video.title': 'शिक्षणातील शतकभर उत्कृष्टता',
+    'video.subtitle': 'मालवण शिक्षण संस्थेची परिवर्तन आणि उपलब्धी पहा - १९११ पासून भविष्य घडवत आहोत',
+    'video.watch': 'आमची गोष्ट पहा',
+    'video.caption': 'अग्रणी संस्थांपासून आधुनिक शैक्षणिक उत्कृष्टतेपर्यंत - मालवण शिक्षण संस्थेचा उल्लेखनीय प्रवास अनुभवा',
+    'video.achievement1.title': '११४ वर्षे',
+    'video.achievement1.subtitle': 'उत्कृष्टतेचा वारसा',
+    'video.achievement1.description': '१९११ पासून',
+    'video.achievement2.title': '१५००+',
+    'video.achievement2.subtitle': 'विद्यार्थी सशक्त',
+    'video.achievement2.description': 'दरवर्षी',
+    'video.achievement3.title': '५ संस्था',
+    'video.achievement3.subtitle': 'शैक्षणिक शाखा',
+    'video.achievement3.description': 'SSC आणि HSC',
+    'video.achievement4.title': 'पुरस्कार विजेते',
+    'video.achievement4.subtitle': 'शैक्षणिक उत्कृष्टता',
+    'video.achievement4.description': 'राष्ट्रीय स्तरावर मान्यताप्राप्त',
   },
 };
 
