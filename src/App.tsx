@@ -10,6 +10,7 @@ import { LoadingFallback } from "@/components/LoadingFallback";
 // Lazy load pages for better performance
 const Index = lazy(() => import("./pages/Index"));
 const DevelopmentTeam = lazy(() => import("./pages/DevelopmentTeam"));
+const JeevanManthan = lazy(() => import("./pages/JeevanManthan"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/development-team" element={<DevelopmentTeam />} />
+              <Route path="/jeevan-manthan" element={<JeevanManthan />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

@@ -7,6 +7,7 @@ import { SEOHead } from "../components/SEOHead";
 const EducationalSections = lazy(() => import("../components/EducationalSections"));
 const AboutSection = lazy(() => import("../components/AboutSection"));
 const VideoSection = lazy(() => import("../components/VideoSection"));
+const JeevanManthanSection = lazy(() => import("../components/JeevanManthanSection"));
 const Footer = lazy(() => import("../components/Footer"));
 const Chatbot = lazy(() => import("../components/Chatbot").then(module => ({ default: module.Chatbot })));
 
@@ -32,6 +33,9 @@ const Index = () => {
       </Suspense>
       <Suspense fallback={<ComponentLoadingFallback />}>
         <VideoSection />
+      </Suspense>
+      <Suspense fallback={<ComponentLoadingFallback />}>
+        <JeevanManthanSection />
       </Suspense>
       <Suspense fallback={<ComponentLoadingFallback />}>
         <div id="contact">

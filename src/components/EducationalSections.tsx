@@ -8,6 +8,7 @@ import malvanBusinessImg from "@/assets/paruyekar.jpeg";
 import malvanArtsImg from "@/assets/ghurye.png";
 import malvansmruthiImg from "@/assets/smruthinew.jpeg";
 import gyanImg from "@/assets/gyanjyoti.jpeg";
+import rajivKubalImg from "@/assets/rajiv-kubal.jpg";
 
 const EducationalSections = () => {
   const { t } = useLanguage();
@@ -232,7 +233,7 @@ const EducationalSections = () => {
           </div>
 
           {/* Gyan Jyoti*/}
-          <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center bg-card rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300 mb-12 sm:mb-24">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center bg-card rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="lg:w-1/2">
               <img
                 src={gyanImg}
