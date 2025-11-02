@@ -394,7 +394,7 @@ const translations = {
 'committee.member13.position': 'जय गणेश इंग्लिश मिडीयम स्कुल मुख्याध्यापक',
 'committee.member14.name': 'ए. एस. चव्हाण',
 'committee.member14.position': 'निमंत्रित',
-'committee.member15.name': 'एस. एम. परुळेकर',
+'committee.member15.name': 'शरद परूळेकर',
 'committee.member15.position': 'निमंत्रित',
 'committee.member16.name': 'ए. व्ही. आजगावकर',
 'committee.member16.position': 'निमंत्रित',
