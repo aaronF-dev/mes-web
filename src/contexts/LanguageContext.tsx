@@ -116,6 +116,16 @@ const translations = {
     'gyan.description': 'It is a comprehensive handcraft articles/stories or literature by our students..',
     'gyan.explore': 'Explore Dnyan Jyoti →',
 
+    // Alumni Hub
+    'alumni.title': 'Alumni Hub',
+    'alumni.description': 'Connect with fellow alumni, share experiences, and stay engaged with the MES community. Register to get early access of Alumni Hub.',
+    'alumni.explore': 'Explore Alumni Hub →',
+
+    // Student Resources
+    'resources.title': 'Student Resources',
+    'resources.description': 'Access essential academic resources, study materials, and student support services.',
+    'resources.explore': 'Explore Resources →',
+
     // Jeevan Manthan Series
     'jeevanManthan.newspaper': 'Article Series',
     'jeevanManthan.title': 'Jeevan Manthan',
@@ -302,11 +312,21 @@ const translations = {
     'smruthi.description': 'टोपीवालाचा सखोल इतिहास दाखवणारी ही एक विस्तृत/अंगभूत हस्तकला पत्रिका आहे.',
     'smruthi.explore': 'स्मृती गंधा एक्सप्लोर करा →',
 
-    // ज्ञान ज्योती (Gyan Jyoti)
+     // ज्ञान ज्योती (Gyan Jyoti)
 // 'gyan.founded': '२०११ मध्ये सुरू',
 'gyan.title': 'ज्ञान ज्योती',
 'gyan.description': 'हा आमच्या विद्यार्थ्यांद्वारे तयार केलेल्या हस्तकला वस्तू/कथा किंवा साहित्याचा एक सर्वसमावेशक संग्रह आहे.',
 'gyan.explore': 'ज्ञान ज्योती एक्सप्लोर करा →',
+
+    // माजी विद्यार्थी केंद्र (Alumni Hub)
+    'alumni.title': 'माजी विद्यार्थी केंद्र',
+    'alumni.description': 'सहकारी माजी विद्यार्थ्यांशी संपर्क साधा, अनुभव सामायिक करा आणि MES समुदायाशी जुडलेले राहा. माजी विद्यार्थी केंद्राचा लवकर प्रवेश मिळविण्यासाठी नोंदणी करा.',
+    'alumni.explore': 'माजी विद्यार्थी केंद्र एक्सप्लोर करा →',
+
+    // विद्यार्थी संसाधने (Student Resources)
+    'resources.title': 'विद्यार्थी संसाधने',
+    'resources.description': 'आवश्यक शैक्षणिक संसाधने, अभ्यास साहित्य आणि विद्यार्थी समर्थन सेवांमध्ये प्रवेश मिळवा.',
+    'resources.explore': 'संसाधने एक्सप्लोर करा →',
 
     // जीवन मंथन मालिका (Jeevan Manthan Series)
     'jeevanManthan.newspaper': 'लेख मालिका',

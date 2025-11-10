@@ -9,6 +9,8 @@ import malvanArtsImg from "@/assets/ghurye.png";
 import malvansmruthiImg from "@/assets/smruthinew.jpeg";
 import gyanImg from "@/assets/gyanjyoti.jpeg";
 import rajivKubalImg from "@/assets/rajiv-kubal.jpg";
+import alumniHubImg from "@/assets/alumni-hub-custom.jpg";
+import studentResourcesImg from "@/assets/student-resources-custom.jpg";
 
 const EducationalSections = () => {
   const { t } = useLanguage();
@@ -257,6 +259,64 @@ const EducationalSections = () => {
   onClick={() => window.open('https://ths.topiwala-mes.org/gyan-jyoti', '_blank')}
 >
   {t('gyan.explore')}
+</Button>
+            </div>
+          </div>
+
+          {/* Alumni Hub */}
+          <div className="flex flex-col lg:flex-row-reverse gap-6 lg:gap-12 items-center bg-card rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="lg:w-1/2">
+              <img
+                src={alumniHubImg}
+                alt="Alumni Hub at Malvan"
+                className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="lg:w-1/2 lg:pr-8 text-center lg:text-left">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6 text-foreground">
+                {t('alumni.title')}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-base sm:text-lg">
+                {t('alumni.description')}
+              </p>
+              <Button
+  variant="outline"
+  size="lg"
+  className="hover:bg-primary hover:text-primary-foreground transition-colors"
+  onClick={() => window.open('https://ths.topiwala-mes.org/alumni', '_blank')}
+>
+  {t('alumni.explore')}
+</Button>
+            </div>
+          </div>
+
+          {/* Student Resources */}
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 items-center bg-card rounded-2xl p-4 sm:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="lg:w-1/2">
+              <img
+                src={studentResourcesImg}
+                alt="Student Resources at Malvan"
+                className="w-full h-60 sm:h-80 object-cover rounded-xl shadow-md"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="lg:w-1/2 lg:pl-8 text-center lg:text-left">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-serif mb-4 sm:mb-6 text-foreground">
+                {t('resources.title')}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed mb-6 sm:mb-8 text-base sm:text-lg">
+                {t('resources.description')}
+              </p>
+              <Button
+  variant="outline"
+  size="lg"
+  className="hover:bg-primary hover:text-primary-foreground transition-colors"
+  onClick={() => window.open('https://ths.topiwala-mes.org/resources', '_blank')}
+>
+  {t('resources.explore')}
 </Button>
             </div>
           </div>
